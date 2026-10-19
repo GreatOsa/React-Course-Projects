@@ -1,0 +1,25 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.app {
+    width: 100vw;
+    height: 100vh;
+    position: relative;
+    background-color: hsl(0, 1%, 44%);
+}
+
+.container {
+    /* margin: auto; */
+    background-color: hsl(0, 0%, 100%);
+    position: absolute;
+    height: 60%;
+    width: 60%;
+    left: 50%;
+    top: 50%;
+    border-radius: 1rem 1rem 6rem 1rem;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
